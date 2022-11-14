@@ -333,7 +333,7 @@ void SetDebugEnabled(bool enabled) {
 
 bool DebugEnabled() {
 #if defined _DEBUG
-	return true;
+	return false;
 #else
 	return DebugModeEnabled;
 #endif
